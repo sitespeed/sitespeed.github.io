@@ -16,22 +16,31 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:description" content="WE MAKE YOUR WEBSITE LOAD FASTER!"/>
 <link href="assets/css/style.css" rel="stylesheet" />
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-        
+  	   <script>
+function init() {
+var imgDefer = document.getElementsByTagName('img');
+for (var i=0; i<imgDefer.length; i++) {
+if(imgDefer[i].getAttribute('data-src')) {
+imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
+} } }
+window.onload = init;
+</script>      
  </head>
 <body>
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <div class="navbar-header text-center">
-      
-      <a href="#">
+  <div class="col-md-4 text-center">
+  <a href="#">
 	  
-	  <img class="site-logo img-responsive" src="/assets/images/i-logo.jpg" alt="SiteSpeeders">
+	  <img class="site-logo " src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="assets/images/i-logo.jpg" alt="SiteSpeeders">
 	  
-	  </a>
+	  </a><br />
 	  
+  </div>
+    <div class="navbar-header text-center col-md-8">
 	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -44,31 +53,30 @@
         <li><a href="#what-we-do">What we do</a></li>
         <li><a href="JavaScript:newPopup(' //tools.sitespeeders.com');">Test your site</a></li>
         <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#testimonials">Testimonial</a></li>
-        <li><a href="#contact">Contact Us</a></li>
+		<li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="mailto:support@sitespeeders.com">Contact Us</a></li>
         
       </ul>
       
     </div>
+	
   </div>
 </nav>
          
-<div class="ticker-div hidden-xs">
-<div id="news_ticker">
-	<ul>
-		<li><a href="#">SITE RUNNING SLOW? WE'LL MAKE IT FASTER.</a></li>
-		<li><a href="#">If your visitors can’t even load your page quickly, they will not engage with your site</a></li>
-	</ul>
-</div>
-</div>		 
-                  
+                 
                   		<div class="container-fluid fluid-padding black-bg">
-                        	
+                        		<h3 class="text-white text-center">Site running slow? We'll make it faster.</h3>
+							<p class="text-white text-center">If your visitors can’t even load your page quickly, they will not engage with your site</p>
+							
+							
 							<div class="row">
-                    			<div class="col-md-12 text-white text-center">
-                               <h3>Get Your instant free report now.</h3><br /><br />
-                                <p>Cick the button below to start</p>
+								<div class="col-md-12 text-white text-center">
+                             
+                               
                                <button type="button" class="btn btn-primary button roll-button" onClick="JavaScript:newPopup('//tools.sitespeeders.com');">REVIEW MY WEBSITE</button>
+							   <button type="button" class="btn fix-btn button roll-button" onclick="javascript:location.href='details.html'">FIX MY WEBSITE</button>
+								<br /><br />
+								  <p>ACT NOW! Order it or Get your free report</p>
                                 
                                 </div>
                   			 </div>                       	
@@ -84,7 +92,9 @@
 
  <p >You could spend many hours trawling through blogs and forums, trying to work all of them out, and you would still struggle OR you ask us for help. We have been doing this for years. This is what we do!</p>
 
- <p>From large corporate sites, to WordPress blogs, we WILL improve your site speed.</p>   
+ <p>From large corporate sites, to WordPress blogs, we WILL improve your site speed.</p>  
+
+ 
 
 
                                 
@@ -96,17 +106,17 @@
                             	<div class="row img3 text-center">
                                 	<div class="col-md-4 ">
                                     	<h2>B/A COMPARISON</h2>
-                                    <img src="assets/images/comparison.jpg" alt="Before After Comparison" />
+                                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="assets/images/comparison.jpg" alt="Before After Comparison" />
                                     <p>Not just the obvious difference, but you'll also get the full before & after comparison reports.</p>
                                     </div>
                                 <div class="col-md-4 ">
                                     <h2>EXPERT HANDS</h2>
-                                    <img src="assets/images/expert.jpg" alt="Expert Team" />
+                                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="assets/images/expert.jpg" alt="Expert Team" />
                                     <p>We are experts and have been doing this for years, so leave all your worries behind.</p>
                                     </div>
                                 <div class="col-md-4 ">
                                     <h2>FAB SUPPORT</h2>
-                                   <img src="assets/images/support.jpg" alt="24/7 Support"/>
+                                   <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="assets/images/support.jpg" alt="24/7 Support"/>
                                    <p>Need help? Just shoot us an email, we'll get in touch with you within 24 hours. It's a promise!</p>
                                     </div>
                                 
@@ -123,7 +133,7 @@
 
      <br />
 
-<div class="text-center"><a href="http://refer.ml/sitespeeders" class="btn btn-default roll-button-black">FIX MY WEBSITE</a> </div>   
+<div class="text-center"><a href="details.html" class="btn btn-default roll-button-black">FIX MY WEBSITE</a> </div>   
                                 
                                 </div>
                   			 </div>                       	
@@ -138,7 +148,8 @@
                                <h3>Get Your instant free report now.</h3><br /><br />
                                 <p>Cick the button below to start</p>
                                <button type="button" onClick="JavaScript:newPopup(' //tools.sitespeeders.com');" class="btn btn-primary button roll-button">REVIEW MY WEBSITE</button>
-                                
+                                <button type="button" class="btn fix-btn button roll-button" onclick="javascript:location.href='details.html'">FIX MY WEBSITE</button>
+			
                                 </div>
                   			 </div>                       	
                         
@@ -162,7 +173,7 @@
                          
                          
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js" async></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" async></script>     
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" async></script>     
  <script src="assets/js/pop-up.js" async></script>       
 
 </body>

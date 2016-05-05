@@ -45,10 +45,12 @@ padding:20px;
 }
 body
 {
-	background:url(../images/speed-test.jpg);
+	background:url(../images/speedometer.svg);
 	background-attachment: fixed;
 	background-size: cover;
 	font-family: 'Roboto Slab', serif !important;
+	background-color: #25ACE0 !important;
+	background-position:center;
 
 }
 .text-white 
@@ -152,110 +154,26 @@ border:1px solid #fff;
 background-color: transparent !important;
 }
 
+.fix-btn{
+background-color: #fff !important;
+border-color: #fff !important;	
+color:#25ACE0 !important;
+}
+
+.fix-btn:hover{
+color: #fff !important;
+
+}
+
 .btn-primary{
 background-color: #25ACE0 !important;
 border-color: #25ACE0 !important;	
 	
 }
 
-/* ticker 
-#news_ticker {
+form{
+background: rgba(255, 255, 255, 0.5) none repeat scroll 0% 0%;
+padding: 20px;
+border-radius: 20px;	
 	
-	width: 100%;
-	
-	overflow: hidden;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	padding: 3px;
-	position: relative;
-	-webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5);
-	-moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5);
-	box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5);
-} */
-#news_ticker {
-height: 30px;
-overflow: hidden;
-padding: 3px;
-bottom: 0px;
-
-}
-
-#news_ticker ol,ul{list-style:none};
-
-.ticker span {
-	float: left;
-	color: rgba(0,0,0,.8);
-	color: #001b25;
-	background: #00425a; 
-	padding: 6px;
-	position: relative;
-	border-radius: 4px;
-	font-size: 12px;
-	-webkit-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.2), 0px 1px 1px rgba(0,0,0,0.5);
-	-moz-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.2), 0px 1px 1px rgba(0,0,0,0.5);
-	box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.2), 0px 1px 1px rgba(0,0,0,0.5);
-	background: rgb(0,75,103);
-	background: -moz-linear-gradient(top, rgba(0,75,103,1) 0%, rgba(0,53,72,1) 100%);
-	background: -webkit-linear-gradient(top, rgba(0,75,103,1) 0%,rgba(0,53,72,1) 100%);
-	background: -o-linear-gradient(top, rgba(0,75,103,1) 0%,rgba(0,53,72,1) 100%);
-	background: -ms-linear-gradient(top, rgba(0,75,103,1) 0%,rgba(0,53,72,1) 100%);
-	background: linear-gradient(top, rgba(0,75,103,1) 0%,rgba(0,53,72,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004b67', endColorstr='#003548',GradientType=0 );
-}
-
-#news_ticker ul {
-	text-align:center;
-	padding-left: 20px;
-	-webkit-animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;
-	-moz-animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;
-	-ms-animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;
-	animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;
-}
-#news_ticker ul:hover {
-	-webkit-animation-play-state: paused;
-	-moz-animation-play-state: paused;
-	-ms-animation-play-state: paused;
-	animation-play-state: paused;
-}
-#news_ticker li {line-height: 26px;}
-#news_ticker a {
-	color: #fff;
-	text-decoration: none;
-font-size: 24px;
-text-transform: uppercase;
-}
-
-@-webkit-keyframes ticker {
-	0%   {margin-top: 0;}
-	25%  {margin-top: -26px;}
-	50%  {margin-top: -52px;}
-	75%  {margin-top: -78px;}
-	100% {margin-top: 0;}
-}
-@-moz-keyframes ticker {
-	0%   {margin-top: 0;}
-	25%  {margin-top: -26px;}
-	50%  {margin-top: -52px;}
-	75%  {margin-top: -78px;}
-	100% {margin-top: 0;}
-}
-@-ms-keyframes ticker {
-	0%   {margin-top: 0;}
-	25%  {margin-top: -26px;}
-	50%  {margin-top: -52px;}
-	75%  {margin-top: -78px;}
-	100% {margin-top: 0;}
-}
-@keyframes ticker {
-	0%   {margin-top: 0;}
-	25%  {margin-top: -26px;}
-	50%  {margin-top: -52px;}
-	75%  {margin-top: -78px;}
-	100% {margin-top: 0;}
-}
-.ticker-div{
-width:100%;
-margin:auto;
-max-width:70%
 }
