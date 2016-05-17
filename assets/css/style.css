@@ -177,3 +177,21 @@ padding: 20px;
 border-radius: 20px;	
 	
 }
+
+.price{
+border: 3px solid;
+padding: 15px;
+border-radius: 50px;
+font-weight: bold;
+font-size: 30px;	
+margin:auto;
+max-width:100px;
+}
+
+.pp-button{
+background:url(../images/paypal.png);	
+width:258px;
+height:110px;
+border: none;
+max-width:100%;	
+}
