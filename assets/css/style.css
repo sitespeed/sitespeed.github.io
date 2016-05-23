@@ -15,7 +15,7 @@ border-radius: 0px !important;
 }
 .fluid-padding
 {
-	padding:100px 0px;
+	padding:50px 0px;
 }
 .navbar
 {
@@ -59,6 +59,11 @@ body
 	
 	font-weight:bold;
     text-transform: uppercase;
+}
+
+.text-black 
+{
+	color:#000;
 }
 
 

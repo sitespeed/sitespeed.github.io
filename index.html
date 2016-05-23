@@ -32,7 +32,7 @@ window.onload = init;
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
-  <div class="col-md-4 text-center">
+  <div class="col-sm-4 text-center">
   <a href="#">
 	  
 	  <img class="site-logo " src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="assets/images/i-logo.jpg" alt="SiteSpeeders">
@@ -40,7 +40,7 @@ window.onload = init;
 	  </a><br />
 	  
   </div>
-    <div class="navbar-header text-center col-md-8">
+    <div class="navbar-header text-center col-sm-8">
 	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -65,27 +65,80 @@ window.onload = init;
          
                  
                   		<div class="container-fluid fluid-padding black-bg">
-                        		<h3 class="text-white text-center">Site running slow? We'll make it faster.</h3>
+                        	<!--	<h3 class="text-white text-center">Site running slow? We'll make it faster.</h3>
 							<p class="text-white text-center">If your visitors can’t even load your page quickly, they will not engage with your site</p>
-							
+							-->
 							
 							<div class="row">
-								<div class="col-md-12 text-white text-center">
-                             
-                               
-                               <button type="button" class="btn btn-primary button roll-button" onClick="JavaScript:newPopup('//tools.sitespeeders.com');">TEST MY SITE SPEED</button>
-							   <button type="button" class="btn fix-btn button roll-button" onclick="javascript:location.href='details.html'">FIX MY WEBSITE</button>
-								<br /><br />
-								  <p>ACT NOW! Order it or Get your free report</p>
+								<div class="col-md-8 text-white text-center">
+                             <h1>Site running slow? We'll make it faster.</h1><br /><br />
+                              <button type="button" class="btn btn-primary button roll-button" onClick="JavaScript:newPopup('//tools.sitespeeders.com');">TEST MY SITE SPEED</button>
+							   <button type="button" class="btn fix-btn button roll-button" onclick="javascript:location.href='#what-we-do'">Know More</button>
+								<br /><br /><br /><br />
+								  <p> Order it or Get your free report</p>
+								   <img src="assets/images/arrow.png" class="hidden-xs hidden-sm"/>
                                 
                                 </div>
+								<div class="col-md-4 text-white text-center">
+								<form action="https://formspree.io/hp.singh@live.in" method="POST" id="fix">
+  <div class="form-group row">
+    <div class="col-sm-12">
+      <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+    </div>
+  </div>
+  
+  <div class="form-group row">
+    <div class="col-sm-12">
+      <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+    </div>
+  </div>
+  
+    <div class="form-group row">
+    <div class="col-sm-12">
+      <input type="text" class="form-control" name="url" placeholder="Website URL" required>
+    </div>
+  </div> 
+  
+  <div class="form-group row">
+       <div class="col-sm-12">
+      <input type="text" class="form-control" name="cpanel" placeholder="cPanel Username" required>
+    </div>
+  </div>
+  
+   <div class="form-group row">
+       <div class="col-sm-12">
+      <input type="text" class="form-control" name="cpanel-password" placeholder="cPanel Password" required>
+    </div>
+  </div>
+  
+   <div class="form-group row">
+       <div class="col-sm-12">
+      <textarea class="form-control" name="add-details" rows="3" placeholder="Additional Details or Message"></textarea>
+    </div>
+  </div>
+  <input type="hidden" name="_next" value="http://refer.ml/sitespeeders" />
+  <input type="hidden" name="_subject" value="Order Placed - Site Speeders" />
+  <input type="hidden" name="_cc" value="orders@sitespeeders.com,dan@mobi-force.com" />
+  <input type="text" name="_gotcha" style="display:none" />
+  <h3 class="">Get it Fixed for Just <i>$90</i></h3>
+  <div class="form-group row">
+    <div class=" col-sm-12">
+      <button type="submit"  class="pp-button"></button>
+	  
+    </div>
+  </div>
+</form>
+</div>
+								
+								
+								
                   			 </div>                       	
                         
                         </div>
                  
             		<div class="container-fluid fluid-padding blue-bg" id="what-we-do">
 							<div class="row leaf">
-                    			<div class="col-md-12 col-sm-12">
+                    			<div class="col-sm-12 col-sm-12">
                              <h2 class="text-center" >WHAT WE DO.</h2>
                     <p>We do exactly what our name suggests. We speed up your site, which in turn keeps your users engaged and returning. How many times have you waited for sluggish site pages to load and just thought ‘forget this’ and searched for an alternative option.</p>
  <p>Sites do not run slowly just because of hosting packages. There are over 100 optimisations that can be made to speed up your site: databases, CDN’s, Javascript, minify, cache, lazy load, htaccess, gzip to name a few.<p>
@@ -94,7 +147,7 @@ window.onload = init;
 
  <p>From large corporate sites, to WordPress blogs, we WILL improve your site speed.</p>  
 
- 
+ <div class="text-center"><a href="#" onClick="JavaScript:newPopup('https://tools.sitespeeders.com');" class="btn btn-default roll-button-black">Get Free Report</a> </div>   
 
 
                                 
@@ -104,17 +157,17 @@ window.onload = init;
                         </div>
                         	<div class="container-fluid fluid-padding white-bg">
                             	<div class="row img3 text-center">
-                                	<div class="col-md-4 ">
+                                	<div class="col-sm-4 ">
                                     	<h2>B/A COMPARISON</h2>
                                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="assets/images/comparison.jpg" alt="Before After Comparison" />
                                     <p>Not just the obvious difference, but you'll also get the full before & after comparison reports.</p>
                                     </div>
-                                <div class="col-md-4 ">
+                                <div class="col-sm-4 ">
                                     <h2>EXPERT HANDS</h2>
                                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="assets/images/expert.jpg" alt="Expert Team" />
                                     <p>We are experts and have been doing this for years, so leave all your worries behind.</p>
                                     </div>
-                                <div class="col-md-4 ">
+                                <div class="col-sm-4 ">
                                     <h2>FAB SUPPORT</h2>
                                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="assets/images/support.jpg" alt="24/7 Support"/>
                                    <p>Need help? Just shoot us an email, we'll get in touch with you within 24 hours. It's a promise!</p>
@@ -125,7 +178,7 @@ window.onload = init;
                             
                  <div class="container-fluid fluid-padding  blue-bg " id="pricing">
 							<div class="row leaf">
-                    			<div class="col-md-12">
+                    			<div class="col-sm-12">
                              <h2 class="text-center" >HONEST PRICING. NO SURPRISES.</h2><br />
 							 <h3 class="price text-center">$90</h3>
                     <p>We don’t faff around with different pricing packages. For just <B>$90</B> we basically chuck everything we have at your site, and you get our undivided attention on your site until we make it perform better and faster.</p>
@@ -134,7 +187,7 @@ window.onload = init;
 
      <br />
 
-<div class="text-center"><a href="details.html" class="btn btn-default roll-button-black">FIX MY WEBSITE</a> </div>   
+<div class="text-center"><a href="#fix" class="btn btn-default roll-button-black">FIX MY WEBSITE</a> </div>   
                                 
                                 </div>
                   			 </div>                       	
@@ -145,11 +198,11 @@ window.onload = init;
                             	<div class="container-fluid fluid-padding black-bg">
                         	
 							<div class="row">
-                    			<div class="col-md-12 text-white text-center">
+                    			<div class="col-sm-12 text-white text-center">
                                <h3>Get Your instant free report now.</h3><br /><br />
                                 <p>Cick the button below to start</p>
                                <button type="button" onClick="JavaScript:newPopup(' //tools.sitespeeders.com');" class="btn btn-primary button roll-button">TEST MY SITE SPEED</button>
-                                <button type="button" class="btn fix-btn button roll-button" onclick="javascript:location.href='details.html'">FIX MY WEBSITE</button>
+                                <button type="button" class="btn fix-btn button roll-button" onclick="javascript:location.href='#fix'">FIX MY WEBSITE</button>
 			
                                 </div>
                   			 </div>                       	
@@ -159,8 +212,13 @@ window.onload = init;
                          
                          <div class="container-fluid color foot">
                         	<div class="row">
-                            		<div class="col-md-12 text-center">
-                                    &copy; SiteSpeeders
+                            		<div class="col-sm-6 text-center">
+                                    &copy; SiteSpeeders | <a href="tos.html#privacy">Privacy</a> | <a href="tos.html#terms">Terms of use</a>
+									
+									</div>
+									
+									<div class="col-sm-6 text-center">
+                                    sitespeeders.com | Unit 36 | 88-90 Hatton Garden | London | EC1N 8PN
 									
 									</div>
 									
