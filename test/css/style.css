@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+p{
+line-height:2;
+}
+/*.navbar-toggle{
+float:none !important;	
+	
+}*/
+.navbar-brand{
+padding:0px;	
+height:auto !important;
+}
+.navbar{
+border-radius: 0px !important;	
+	
+}
+.fluid-padding
+{
+	padding:50px 0px;
+}
+.navbar
+{
+	margin:0px !important;	
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
+.nav-row
+{
+	border-top: 2px solid #25abe6 !important;
+}
+.navbar-nav li a
+{
+	color:#25abe6 !important;
+	margin:10px;
+	
+
+}
+.foot{
+padding:20px;	
+	
+}
+
+.log img
+{
+	margin-top:20px;
+	
+}
+body
+{
+	background:url(../images/speedometer.svg);
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Roboto Slab', serif !important;
+	background-color: #25ACE0 !important;
+	background-position:center;
+
+}
+.text-white 
+{
+	color:#fff;
+	
+	font-weight:bold;
+    text-transform: uppercase;
+}
+
+.text-black 
+{
+	color:#000;
+}
+
+
+.button
+{
+	color:37,172,224,1;
+	border-color:#25abe6;
+}
+.blue-bg
+{
+	background-color: rgb(37, 172, 224);
+	color:#fff;
+} 
+.blue-bg p
+{
+padding: 5px 25px;
+
+}
+
+.leaf{
+border-radius: 15px;
+border:1px dotted #fff;
+padding:30px;
+max-width:85%;
+margin:auto !important;
+text-align:justify !important;
+}
+
+.max-w{
+max-width:1099px;
+margin:auto !important;
+}
+.white-bg
+{
+background:#fff;
+	
+}
+.white-bg h1
+{
+	margin-left:10px;
+}
+.img3 img
+{
+	border-radius:30px 0px;
+	margin:20px 10px;
+}
+img
+{
+	max-width:100%;
+}
+.blue-bg2
+{
+	background-color: rgb(37, 172, 224);
+	color:#fff;
+	
+	text-transform: uppercase;
+	
+} 
+
+
+.black-bg
+{
+	background-color: RGBA(0, 0, 0, 0.5);
+	
+}
+.color
+{
+    background-color: rgb(22, 22, 22);
+	
+
+}
+.fb-img img
+{
+	width:5%;
+	margin-top:10px;
+}
+
+.roll-button{
+padding: 15px !important;
+border-radius: 0px !important;
+margin: 20px;
+}
+
+.roll-button-black{
+padding: 15px !important;
+border-radius: 20px 0px !important;
+background:#fff;
+color:#25ACE0 !important;
+border:1px solid #fff;
+}
+
+.roll-button:hover{
+background-color: transparent !important;
+}
+
+.fix-btn{
+background-color: #fff !important;
+border-color: #fff !important;	
+color:#25ACE0 !important;
+}
+
+.fix-btn:hover{
+color: #fff !important;
+
+}
+
+.btn-primary{
+background-color: #25ACE0 !important;
+border-color: #25ACE0 !important;	
+	
+}
+
+form{
+background: rgba(255, 255, 255, 0.5) none repeat scroll 0% 0%;
+padding: 20px;
+border-radius: 20px;	
+	
+}
+
+.price{
+border: 3px solid;
+padding: 15px;
+border-radius: 50px;
+font-weight: bold;
+font-size: 30px;	
+margin:auto;
+max-width:100px;
+}
+
+.pp-button{
+background:url(../images/paypal.png);	
+width:258px;
+height:110px;
+border: none;
+max-width:100%;	
+}
